@@ -1,10 +1,10 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import Card from './components/Card'
-import data from './Data'
+import Data from './Data'
 
 function App() {
-  const cards = data.map(data => {
+  const cards = Data.map((data) => {
     return (
       <Card
         key={data.id}

@@ -1,10 +1,9 @@
 import ImgLocation from '../images/Fill219.png'
+import PropTypes from 'prop-types'
 import './Card.css'
 
-
-function Card(props) {
+const Card = (props) => {
   
-
   return (
     <div className="card">
         <img src={props.imageUrl} alt={props.title} className="card--image"/>
@@ -16,10 +15,20 @@ function Card(props) {
             <span className='start--end'>{props.startDate}-</span>
             <span className='start--end'>{props.endDate}</span>
             <p className='description'>{props.description}</p>
-            
         </div>
+        
     </div>
   )
+}
+
+Card.PropTypes = {
+  imageUrl: PropTypes.string,
+  location: PropTypes.string,
+  googleMapsUrl: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
 }
 
 export default Card
