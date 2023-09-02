@@ -24,6 +24,8 @@ During the creation of this project, some important lessons stood out:
 
 - Practice makes perfect: Working on practical projects is the best way to learn. I made mistakes, adjusted my code, and learned a lot during the process.
 
+- - The power of `.map()`: I also learned how to use the `.map()` method to efficiently render lists of elements in React, making it easier to display a list of countries dynamically.
+
 ## Next Steps
 
 My learning journey in React is just beginning. Here are some of my upcoming goals:
