@@ -53,7 +53,7 @@ To run this project, follow these steps:
 2. Clone this repository to your local system:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/Programmerarantes/myTravelJournal.git
 
 
 3. Navigate to the project directory: cd your-project
